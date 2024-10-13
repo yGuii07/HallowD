@@ -52,20 +52,23 @@ html.click, html.click a, html.click a:hover, a:hover{
     animation: color 12s infinite linear;
     border-radius: 100px;
 }
-#audioborda1{
-    float: right;
-    margin: 20 15 0 10;
-    width: 320px;
-    height: 75px;
-    color: #28143E;
-    border-radius: 100px;
-}
+
 
 audio{
     float: right;
     margin: 10 10 0 10;
    
     
+}
+
+
+#h1{
+    word-spacing: 10px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0 0 0 0;
+    font-weight: 400;
+    font-size: 100;
 }
 
 h1{
