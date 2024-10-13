@@ -28,7 +28,7 @@ h5{
 
   html{
     cursor: url('Imagens/cursor1.png'), auto;
- ;
+ 
 }
 html.click, html.click a, html.click a:hover, a:hover{
     cursor: url('Imagens/cursor2.png '), pointer;
@@ -57,7 +57,7 @@ html.click, html.click a, html.click a:hover, a:hover{
 audio{
     float: right;
     margin: 10 10 0 10;
-   
+    cursor: url("Imagens/cursor2.png"), pointer;
     
 }
 
@@ -172,6 +172,7 @@ h2{
     color: #c06500;
     font-size: 30;
     text-align: center;
+    position: absolute;
 }
 
 
@@ -230,3 +231,72 @@ h2{
     background-repeat: repeat;
     background-size: 25%;
 }
+
+.eyesglitch{
+    height: 50px;
+    width: auto;
+    position: absolute;
+    margin: -2 0 0 780;
+}
+
+
+#avisogeral{
+    height: 700 ;
+    width: 900;
+    background-color: white;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 10px;
+}
+
+#aviso{
+    height: 80;
+    width: 900;
+  background-color:#620003;
+  border-radius: 8px;
+  align-items: center;
+  display: flex;
+justify-content: center;
+}
+
+.perigo{
+    color: white;
+    font-family: 'Books';
+    font-size: 60px;
+    word-spacing: 5px;
+    font-weight: 1000;
+   float: center;
+  position: absolute;
+  margin-left: -70;
+  margin-top: -20;
+}
+
+h3{
+    font-family: 'Books';
+    text-align: center;
+    font-size: 30px;
+    margin-top: -10;
+}
+
+#sim{
+    color: black;
+    font-family: 'Books';
+    font-weight: 800;
+    font-size: 80px;
+    float: left;
+    margin: -50 0 0 100;
+    text-decoration: none;
+}
+
+#não{
+    color: black;
+    font-family: 'Books';
+    font-weight: 800;
+    font-size: 80px;
+    float: right;
+    margin: -50 100 0 0;
+    text-decoration: none;
+}
+
