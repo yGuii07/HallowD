@@ -241,10 +241,10 @@ h2{
 
 
 #avisogeral{
-    height: 700 ;
-    width: 900;
+    height: 625 ;
+    width: 600;
     background-color: white;
-    top: 65%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
@@ -253,7 +253,7 @@ h2{
 
 #aviso{
     height: 80;
-    width: 900;
+    width: 600;
   background-color:#620003;
   border-radius: 8px;
   align-items: center;
@@ -284,7 +284,7 @@ h3{
     color: black;
     font-family: 'Books';
     font-weight: 800;
-    font-size: 80px;
+    font-size: 30px;
     float: left;
     margin: -50 0 0 100;
     text-decoration: none;
@@ -294,9 +294,75 @@ h3{
     color: black;
     font-family: 'Books';
     font-weight: 800;
-    font-size: 80px;
+    font-size: 30px;
     float: right;
     margin: -50 100 0 0;
     text-decoration: none;
 }
 
+#bordacor{
+   width: 440px;
+   height: 225px;
+   background-color: #28143E;
+   float: left;
+   border-radius: 5px;
+   margin: 50 0 0 40;
+   justify-items: center;
+   display: flex;
+}
+
+#bordacor1{
+    width: 440px;
+    height: 225px;
+    background-color: #28143E;
+    float: left;
+    border-radius: 5px;
+    margin: 50 0 0 40;
+    justify-items: center;
+    display: flex;
+ }
+
+
+.abobora{
+    height: auto;
+    width: 200;
+}
+
+#contentscor{
+    width: 400px;
+    height: 550;
+    background-color: #28143E;
+    float: left;
+    border-radius: 5px;
+    margin: 50 0 0 40;
+
+    padding: 0 20 0 20;
+    justify-items: center;
+    display: flex;
+    color: white;
+    font-family: 'Books';
+    font-size: 18.5px;
+    word-spacing: 5px;
+    font-weight: 400;
+    text-align: justify ;
+}
+
+#contentscor1{
+    width: 400px;
+    height: 550;
+    background-color: #28143E;
+    float: left;
+    border-radius: 5px;
+    margin: 50 0 0 40;
+
+    padding: 0 20 0 20;
+    justify-items: center;
+    display: flex;
+    color: white;
+    font-family: 'Books';
+    font-size: 18.5px;
+    word-spacing: 5px;
+    font-weight: 400;
+
+    text-align: justify ;
+}
